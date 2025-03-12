@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#f4f4f4;
+}
+
+aside{
+    /* width: 20rem; */
+    height: 100vh;
+    background-color: f4f4f4;
+    color: #444;
+    /* padding: 2rem; */
+    width: 350px;
+    background-color: #f4f4f4;
+    color: #444;
+    /* height: 100vh; */
+    padding: 20px;
+    position: fixed;
+    /* gap: 100rem; */
+    font-size: 20px;
+    font-weight: 500;
+    gap: 20rem;
+    margin-left: 2px solid #ccc;
+}
+
+.aside h2{
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+aside .nav-header img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.nav-header button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80%;
+    height: 3rem;
+}
+
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.nav-links li:hover{
+    background-color: grey;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.nav-links li i{
+    margin-left: 1rem;
+    gap: 3rem;
+    margin-right: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 4px solid #ccc;
+    margin-left: 21rem;
+    width: 200rem;
+    position: sticky;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}

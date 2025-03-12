@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #333;
+    background-size: auto;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+nav img{
+    height: 5rem;
+    width: 8rem;
+}
+
+.bar-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: gainsboro;
+}
+
+.unlimited button{
+    background-color: limegreen;
+    border-radius: .5rem;
+    color: black;
+    height: 3rem;
+    width: 18rem;
+    border: none;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.unlimited button:hover{
+    color: darkgreen;
+}
+
+.Sign button{
+    background-color: #333;
+    border-radius: none;
+    height: 2rem;
+    width: 5rem;
+    color: gainsboro;
+    border: none;
+}
+
+.Sign button:hover{
+    color: white;
+}
+
+.Labs{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: gainsboro;
+    flex-wrap: wrap;
+}
+
+.Labs li:hover{
+    color: white;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+
+.dropdown-content{
+   position: absolute;
+   display: none;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+   padding: 12px 16px 1rem 1rem;
+   z-index: 1;
+} 
+
+.dropdown span:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content ul{
+    float: left;
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.bar-links li:hover{
+    color: white;
+}
+
+.bar-links{
+    background-color: #333;
+    overflow: hidden;
+}
+
+

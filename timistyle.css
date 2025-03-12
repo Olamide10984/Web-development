@@ -1,0 +1,44 @@
+/* body{
+    background-color: bisque;
+}
+
+h1{
+    margin-left: 100px;
+    border-bottom: 1px solid orange;
+}
+
+h2{
+    margin-left: 100px;
+}
+
+img{
+    float: right;
+} */
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    padding-left: 400px;
+    border-bottom: 1px blue;
+}
+
+img{
+    padding-left: 500px;
+}
+
+h2{
+    color: orangered;
+    padding-left: 200px;
+    font-family: sans-serif;
+}
+
+p{
+    padding-left: 200px;
+}
+
+hr{
+   margin-left: 200px;
+   margin-right: 800px;
+}
